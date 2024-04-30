@@ -1,0 +1,423 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #696763;
+}
+
+/* !HEADER  */
+
+.nav_dropdown {
+    color: #696763;
+    border: 2px solid #cdcdcd;
+}
+
+.nav_dropdown:hover {
+    border: 2px solid orange;
+}
+
+.nav_contact a,
+.nav_icons a {
+    color: #696763;
+}
+
+.nav_contact a:hover,
+.nav_icons a:hover {
+    color: orange;
+    transition: 0.2s;
+}
+
+.nav_top {
+    background-color: #f0f0e9;
+}
+
+.active1 {
+    color: orange;
+    font-weight: 600;
+}
+
+.nav_right a {
+    color: #696763;
+    transition: 0.3s;
+}
+
+.nav_right a:hover {
+    color: orange;
+}
+
+.search_input input,
+form input {
+    background: #f0f0e9;
+}
+
+.search_icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #b7b7b7;
+
+}
+
+
+/* !FOOTER */
+footer {
+    background-color: #f0f0e9;
+}
+
+.footer_map_info {
+    top: 30%;
+}
+
+.Footer_left p {
+    color: #bbbbb4;
+}
+
+.footer_bot_info a {
+    text-decoration: none;
+    color: #8f8f8b;
+    text-align: left;
+}
+
+.footer_bot_info a:hover {
+    color: orange;
+}
+
+.about_shopper {
+    margin-left: 70px;
+}
+
+.footer_bot_info ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_bot_info ul li {
+    margin-bottom: 5px;
+}
+
+.footer_input {
+    position: relative;
+    display: inline-block;
+}
+
+.footer_input input {
+    padding-right: 30px;
+}
+
+.footer_input .icon {
+    position: absolute;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer_bot {
+    background-color: #d6d6d0;
+}
+
+.fa-angle-up{
+    background-color: #fe980f;
+    color: white;    
+    font-size: 20px;
+}
+
+
+/* !CAROUSEL */
+.carousel_h2 {
+    color: #b1b0ab;
+}
+
+.carousel_price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.fa-angle-right,
+.fa-angle-left {
+    font-size: 50px;
+    color: #c3c3c3;
+}
+
+.carousel-left {
+    /* display: flex;  */
+    align-items: center;
+    /* width: 100%; */
+    margin-top: 20%;
+}
+
+.carousel_btn {
+    background-color: #ff9808;
+}
+
+.carousel-indicators button {
+    background-color: #fb9610 !important;
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+
+/* !SIDEBAR */
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/Images/plus-lg.svg);
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-item {
+    --bs-accordion-active-bg: white;
+    --bs-accordion-active-border-color: white;
+    --bs-accordion-active-color: black;
+}
+
+.accordion-body a {
+    color: #696763;
+}
+
+.sidebar_border {
+    border: 3px solid #f7f7f0;
+}
+
+.accordion span,
+.sidebar_text {
+    color: #767470;
+}
+
+.category {
+    position: relative;
+    display: block;
+    padding: 0 15px;
+    color: #fe9b18;
+}
+
+.category::before,
+.category::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    height: 1px;
+    background-color: #696763;
+}
+
+.category::before {
+    left: -20px;
+}
+
+.category::after {
+    right: -30px;
+}
+
+.card_button {
+    background-color: #f5f5eb;
+    color: #5e5d58;
+}
+
+.card_price {
+    color: #ff8b12;
+}
+
+.features_items {
+    position: relative;
+    display: block;
+    padding: 0 15px;
+    color: #fe9b18;
+}
+
+.features_items::before,
+.features_items::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    height: 1px;
+    background-color: #696763;
+}
+
+.features_items::before {
+    left: 10%;
+}
+
+.features_items::after {
+    right: 10%;
+}
+
+
+/* ! LOGIN PAGE */
+
+form input {
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.login_button {
+    background-color: #fe980f;
+    color: white;
+}
+
+.or {
+    background: #FE980F;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.orange {
+    color: #fe9c1a;
+}
+
+/* ! CART PAGE */
+.cart_header {
+    background-color: #fe980f;
+}
+
+.cart_image {
+    max-width: 100px;
+
+}
+
+.cart_plus_minus_icons {
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #f0f0e9;
+    padding: 10px;
+}
+
+.cart_X_icons {
+    color: white;
+    background-color: #f0f0e9;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.cart_dropdown{
+    background-color: #f0f0e9;
+}
+
+.card_btn{
+    margin-top: 20px;
+    background-color: #fe980f;
+    color: white;
+    margin-left: 15px;
+    border-radius: 0px;
+}
+
+.cart_li{
+    background-color: #e6e4df;
+}
+
+.cart_home{
+    background-color: #fe980f;
+}
+
+
+
+
+
+/* !RESPONSIVE */
+
+@media only screen and (max-width: 992px) {
+    .ad_image {
+        width: 100%;
+    }
+
+    .footer_images,
+    .footer_right img {
+        display: block !important;
+        margin: auto !important;
+    }
+
+
+    .category::before,
+    .category::after {
+        width: 30%;
+    }
+
+    .category::before {
+        left: -25px;
+    }
+
+    .category::after {
+        right: -70px;
+    }
+
+
+
+    .footer_right p {
+        margin-left: 80px !important;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .ad_image {
+        width: 100%;
+    }
+
+    .nav_top {
+        display: block !important;
+    }
+
+
+
+    .nav_right {
+        justify-content: center;
+
+    }
+
+    .nav_right li a {
+        padding: 5px !important;
+        text-align: center;
+    }
+
+    .contact_icons {
+        margin-left: 0px !important;
+
+    }
+
+
+
+    .card_container {
+        margin: 40px 0px 0px 0px !important;
+    }
+
+    .footer_mid .col-sm-2 {
+        margin-inline: 20px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .footer_images {
+        padding: 0px !important;
+    }
+
+    .footer_mid .col-sm-2 {
+        margin-inline: 0px !important;
+        padding-inline: 0px !important;
+    }
+
+    .about_shopper {
+        margin: 0px !important;
+    }
+}
